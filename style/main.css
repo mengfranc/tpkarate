@@ -81,15 +81,16 @@ p
 	left:7%;
 	display:inline-block;
 }
-
-form{
+#formulaire{
     width:48%;
     display:inline-block;
+    position;relative;
 }
-#ou{
+#address{
     width:48%;
     display:inline-block;
-
+    border:3px solid white;
+    position:relative;
 }
 label{
     color:white;
@@ -98,14 +99,12 @@ label{
 legend{
     font-size: large;
     font-weight: bold;
-    position:relative;
     color:white;
 
 }
-fieldset img{
+#map{
     width:400px;
     height:300px;
-    position:absolute;
 }
 #footer{
 width:70%;
