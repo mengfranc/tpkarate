@@ -78,14 +78,15 @@ p
 }
 
 #formulaire{
-    width:90%;
+    width:100%;
     padding:2px;
+    padding-right:10px;
 
 }
 #address{
     display:inline-block;
     border:1px solid white;
-    width:89%;
+    width:100%;
     padding:2px;
     left:4px;
     position:relative;
