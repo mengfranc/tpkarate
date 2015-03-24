@@ -56,10 +56,11 @@ a{
 #main{
 background-color: black;
 width: 60%;
-height: 415px;
+height: 700px;
 position:relative;
 left:20%;
 border:3px solid black;
+
 }
 
 p
@@ -112,9 +113,11 @@ position:relative;
 left:15%;
 background-color: black;
 height:150px;
+    top: 50px;
 }
 h2{
     color: red;
+    text-align: center;
 }
 
 table > thead > tr > th
