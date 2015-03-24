@@ -4,7 +4,21 @@
 <head>
     <title>Ecole de Karate</title>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
-    <script type="text/javascript" src="style/main.js"></script>
+    <!-- www.cssplantillas.es.tl -->
+    <script type="text/javascript" src="https://googledrive.com/host/0BzTF4maHDSaGZU0yMXRrRTYxdWM/cuadrogalery.js"></script>
+    <style type="text/css">
+        #gallerycss2{height:390px;margin:5px;clear:both;border:2px solid #eaeaea;padding:5px;}
+        #gallery{display:none;}
+        #jgal {padding:0;margin:0;list-style: none;width:160px;}
+        #jgal li {opacity:.5;filter:alpha(opacity=50);float:left;display:block;
+            width: 60px;height:60px;background-position:50% 50%; cursor:pointer;border:3px solid #fff;
+            outline:1px solid #ddd;margin-right:10px;margin-bottom:10px;}
+        #jgal li img { position: absolute; top: 20px; left: 160px; display: none;}
+        #jgal li.active img {display:block; width:480px;}
+        #jgal li.active, #jgal li:hover{outline-color:#bbb;opacity:.99;filter:alpha(opacity=99);}
+    </style>
+
+
 
 </head>
 <body>
@@ -27,15 +41,20 @@
         </div>
     </div>
     <div id="bloc">
-        <div class="slider">
-            <script>
-                for (i=0;i<photos.length;i++)
-                {
-                    document.write("<div id="+i+" class=\"mini\" onClick=\"slide(this)\"></div> ");
-                }
-            </script>
-            <p><img src="photos/image01.jpg" name="photoslider"></p>
-            <a href="#" onClick="backward()"> << </a> | <a  href="#" onClick="forward()"> >> </a>
+        <!-- www.cssplantillas.es.tl -->
+        <div id="gallerycss2"><div style="position:relative;"><ul id="gallery">
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/banniere.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+            <li><img src="images/image01.jpg" alt="image1" /></li>
+        </ul></div></div>
+
 
         <div id="actualite">
             <h2>Actualites</h2>
