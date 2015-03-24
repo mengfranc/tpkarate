@@ -52,25 +52,24 @@ a{
     background-color: white;
     }
 .actif:active, .non_actif:active{
-	color:green;
+	color:red;
 }
 #main{
 background-color: black;
 width: 60%;
-height: 700px;
+height: auto;
 position:relative;
 left:20%;
 border:3px solid black;
-
 }
-/* Commentaire pour test */
+
 p
 {
  color: #ffffff;
 }
 #actualite{
 	border:3px solid white;
-	width:250px;
+	width:152px;
 	height:396px;
 	position:relative;
 	left:680px;
@@ -80,7 +79,6 @@ p
 #formulaire{
     width:100%;
     padding:2px;
-    padding-right:10px;
 
 }
 #address{
@@ -128,7 +126,13 @@ background-color: black;
 height:150px;
     top: 50px;
 }
-h2,h4{
+h2{
+    color: white;
+    text-align: center;
+
+
+}
+h4{
     color: white;
     text-align: left;
     padding-left:45px;
