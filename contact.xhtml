@@ -15,29 +15,30 @@
                 <li><a class="non_actif" href="index.xhtml">Accueil</a></li>
                 <li><a class="non_actif" href="cours.xhtml">Cours</a></li>
                 <li><a class="non_actif" href="horaire.xhtml">Horaire</a></li>
-                <li><a class="non_actif" href="Historique.xhtml">Tarif</a></li>
+                <li><a class="non_actif" href="historique.xhtml">Historique</a></li>
                 <li><a class="non_actif" href="evenement.xhtml">Evenement</a></li>
                 <li><a class="actif" href="contact.xhtml">Contact</a></li>
 			</ul>
 		</div>
 		<div id="main">
-            <form id="formulaire">
+            <div id="formulaire">
+            <form action="">
                 <fieldset>
                     <legend>Contactez nous:</legend>
-                    <label for="prenom">Prenom: </label>
-                    <input type="text" id="prenom"/><br/>
-                    <label for="nom">Nom: </label>
-                    <input type="text" id="nom"/><br/>
-                    <label for="email">E-mail: </label>
-                    <input type="text" id="email"/><br/>
-                    <label for="age">Age:</label>
+                    <div><label for="prenom">Prenom: </label>
+                        <input type="text" id="prenom"/></div>
+                    <div><label for="nom">Nom: </label>
+                        <input type="text" id="nom"/></div>
+                    <div><label for="email">E-mail: </label>
+                    <input type="text" id="email"/></div>
+                    <div><label for="age">Age:</label>
                     <select id="age" name="age">
                         <option>Moin de 16 ans</option>
                         <option>Entre 17 et 20 ans</option>
                         <option>Entre 21 et 25 ans</option>
                         <option>Entre 25 et 40 ans</option>
                         <option>Plus de 40 ans</option>
-                    </select><br/>
+                    </select></div>
                     <label for="sex">Sex:</label>
                     <label for="sex">M</label>
                     <input type="radio" name="sex" id="sex" value="masculine"/>
@@ -51,12 +52,13 @@
             </form>
             </div>
             <div id="address">
-                <h4>Appelez-nous ou venez nous rencontrer!</h4>
+                <h2>Appelez-nous ou venez nous rencontrer!</h2>
                 <p>558, boulevard Ste-Foy<br/>
                 Longueuil, Qc, J4J 1Y6<br/>
                 Telephone: 450-442-1417</p>
                 <a href="https://www.google.ca/maps/place/558+Boulevard+Sainte-Foy,+Longueuil,+QC+J4J+1Y6/@45.5253953,-73.4929386,17z/data=!3m1!4b1!4m2!3m1!1s0x4cc91b499114a61f:0x85b5370e5d98f586"> <img id="map" src="images/map.jpg"/></a>
             </div>
+        </div>
 	</div>
     <div id="footer">
     </div>
