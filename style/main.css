@@ -3,7 +3,7 @@
 	margin:0;
 	background-color: white;
 }
-#banniere{
+#header{
 	text-align:center;
 }
 #menu{
@@ -53,7 +53,7 @@ a{
 .actif:active, .non_actif:active{
 	color:green;
 }
-#bloc{
+#main{
 background-color: black;
 width: 60%;
 height: 415px;
@@ -70,7 +70,7 @@ border:3px solid black;
 	left:680px;
 	bottom:408px;
 }
-#bloc img{
+#main img{
 	position:relative;
 	top:100px;
 	left:7%;
