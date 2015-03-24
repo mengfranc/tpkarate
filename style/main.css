@@ -28,11 +28,11 @@ a{
     font-weight:bold;
 }
 .actif:link {
-    color:red;
+    color:black;
     text-decoration: none;
     display:inline-block;
     width: 95px;
-    background-color: #e9e900;
+    background-color: white;
 }
 .non_actif:link{
 	color:white;
@@ -41,43 +41,65 @@ a{
     width: 95px;
 }
 .actif:visited{
-    color:red
+    color:black;
 }
 .non_actif:visited{
 	color:white;
 }
 .non_actif:hover{
-	color:red;
-    background-color: #e9e900
+	color:black;
+    background-color: white;
     }
 .actif:active, .non_actif:active{
 	color:green;
 }
 #bloc{
-background-image: black;
-width: 70%;
+background-color: black;
+width: 60%;
 height: 415px;
 position:relative;
-left:15%;
+left:20%;
 border:3px solid black;
 }
 
 #actualite{
-	border:3px solid red;
+	border:3px solid white;
 	width:250px;
-	height:400px;
+	height:396px;
 	position:relative;
-	left:665px;
-	bottom:410px;
+	left:680px;
+	bottom:408px;
 }
 #bloc img{
 	position:relative;
 	top:100px;
 	left:7%;
 	display:inline-block;
-
 }
 
+form{
+    width:48%;
+    display:inline-block;
+}
+#ou{
+    width:48%;
+    display:inline-block;
+
+}
+legend{
+    font-size: large;
+    font-weight: bold;
+    position:relative;
+
+}
+fieldset img{
+    width:400px;
+    height:300px;
+    position:absolute;
+
+
+
+}
 #footer{
 width:70%;
 position:relative;
@@ -86,7 +108,7 @@ background-color: black;
 height:150px;
 }
 h2{
-    color: black;
+    color: red;
 }
 
 table > thead > tr > th
