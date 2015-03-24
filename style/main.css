@@ -88,6 +88,7 @@ form{
 }
 label{
     color:white;
+    font-weight: bold;
 }
 legend{
     font-size: large;
