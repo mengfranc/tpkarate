@@ -86,19 +86,20 @@ form{
     display:inline-block;
 
 }
+label{
+    color:white;
+}
 legend{
     font-size: large;
     font-weight: bold;
     position:relative;
+    color:white;
 
 }
 fieldset img{
     width:400px;
     height:300px;
     position:absolute;
-
-
-
 }
 #footer{
 width:70%;
