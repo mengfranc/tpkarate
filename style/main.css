@@ -62,6 +62,10 @@ left:20%;
 border:3px solid black;
 }
 
+p
+{
+ color: #ffffff;
+}
 #actualite{
 	border:3px solid white;
 	width:250px;
@@ -115,7 +119,7 @@ h2{
 
 table > thead > tr > th
 {
-    background-color: orange;
+    background-color: red;
 }
 
 td,th{
@@ -129,6 +133,8 @@ td,th{
      left: 150px;
      top: 50px;
      text-align: center;
+     background-color: #ffffff;
+     color: black;
  }
 
 #wrapper-evenement #bloc img{
