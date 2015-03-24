@@ -4,6 +4,7 @@
 <head>
     <title>Ecole de Karate</title>
     <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <script type="text/javascript" src="style/main.js"></script>
 
 </head>
 <body>
@@ -26,7 +27,15 @@
         </div>
     </div>
     <div id="bloc">
-        <p><img src="images/black_belt.jpg" alt="black_belt"/></p>
+        <div class="slider">
+            <script>
+                for (i=0;i<photos.length;i++)
+                {
+                    document.write("<div id="+i+" class=\"mini\" onClick=\"slide(this)\"></div> ");
+                }
+            </script>
+            <p><img src="photos/image01.jpg" name="photoslider"></p>
+            <a href="#" onClick="backward()"> << </a> | <a  href="#" onClick="forward()"> >> </a>
 
         <div id="actualite">
             <h2>Actualites</h2>
