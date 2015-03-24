@@ -1,0 +1,107 @@
+#wrapper{
+	width:100%;
+	margin:0;
+	background-color: white;
+}
+#banniere{
+	text-align:center;
+}
+#menu{
+	 left:20%;
+	 position:relative;
+     background-color: black;
+    width: 60%;
+}
+#menu ul{
+    position:relative;
+;
+    left: 12%;
+}
+#menu li{
+	list-style: none;
+	display:inline-block;
+	border:3px solid red;
+	margin:5px 10px;
+	padding:15px;
+	background-color: black;
+	box-shadow: 2px 2px 5px #999;
+
+}
+a{
+display:inline-block;
+width:50px;
+height:50px;
+}
+a:link{
+	color:white;
+	text-decoration: none;
+
+}
+a:visited{
+	color:white;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:green;
+}
+#bloc{
+background-image: black;
+width: 70%;
+height: 415px;
+position:relative;
+left:15%;
+border:3px solid black;
+}
+
+#actualite{
+	border:3px solid red;
+	width:250px;
+	height:400px;
+	position:relative;
+	left:665px;
+	bottom:410px;
+}
+#bloc img{
+	position:relative;
+	top:100px;
+	left:7%;
+	display:inline-block;
+
+}
+
+#footer{
+width:70%;
+position:relative;
+left:15%;
+background-color: black;
+height:150px;
+}
+h2{
+    color: black;
+}
+
+table > thead > tr > th
+{
+    background-color: orange;
+}
+
+td,th{
+    border: 1px solid black;
+}
+ table
+ {
+     border-spacing:0;
+     border-collapse:collapse;
+     position: relative;
+     left: 150px;
+     top: 50px;
+     text-align: center;
+ }
+
+#wrapper-evenement #bloc img{
+    width: 300px;
+    /*height: ;*/
+
+}
