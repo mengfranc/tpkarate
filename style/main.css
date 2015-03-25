@@ -1,4 +1,9 @@
 /*div qui contents tout*/
+body{
+    font-family: arial, times new roman, georgia, serif;
+    color: #ffffff;
+}
+
 #wrapper{
 	width:100%;
 	margin:0 auto;
@@ -106,6 +111,12 @@ h3{
 /*div qui content le formulaire de contact*/
 /* pour le colour et le grandeur du labels du formulaire*/
 /* On met le float left sur les éléments du formulaire */
+
+fieldset{
+    margin: 20px;
+}
+
+
 #float label, #formulaire span,#float select, #float input, #formulaire textarea, #sex, #commente, #boutton {
     float: left;
 }
@@ -124,7 +135,7 @@ h3{
 }
 
 #formulaire span{
-    margin-top: 5px;
+    margin-top: 2px;
 
 }
 
@@ -148,9 +159,6 @@ p.address_text{
     top:30px
 }
 
-
-}
-
 select{
     color: black;
 }
@@ -163,9 +171,9 @@ label{
 }
 /* pour le colour et le grandeur du legend du formulaire*/
 legend{
-    font-size: large;
+    font-size: 120%;
     font-weight: bold;
-    color:white;
+    color:yellow;
 
 }
 /* pour la position et le grandeur de la image dans le div address*/
@@ -175,8 +183,7 @@ legend{
     position: relative;
     display: inline-block;
     float:right;
-    padding-right:25px;
-    padding-bottom: 25px;
+    border: 4px solid lawngreen;
 }
 /* div qui contents l'address et le facebook*/
 #footer{
@@ -252,8 +259,7 @@ td,th{
 .marge{
     padding-right: 25px;
     padding-left: 25px;
-    text-align: left;
-    text:justify;
+    text-align:justify;
     overflow: scroll;
     height: 500px;
 }
