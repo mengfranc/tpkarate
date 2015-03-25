@@ -179,7 +179,21 @@ td,th{
     text-align: left;
     padding-left: 25px;
 }
+#cours{
+    margin:20px;
+    border:1px solid white;
+    width:45%;
+    display:inline-block;
 
+}
+
+#sensei{
+    margin:20px;
+    border:1px solid white;
+    width:45%;
+    display:inline-block;
+
+}
 .marge{
     padding-right: 25px;
     padding-left: 25px;
