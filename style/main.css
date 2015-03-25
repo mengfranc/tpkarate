@@ -84,6 +84,7 @@ p
 	position:relative;
 	left:685px;
 	bottom:408px;
+    overflow: scroll;
 }
 /*div qui content le formulaire de contact*/
 #formulaire{
