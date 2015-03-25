@@ -13,7 +13,7 @@
 	 margin: 0 auto;
 	 position:relative;
      background-color: black;
-     width: 67%;
+     width: 60.5%;
 }
 /*Positione le menu*/
 #menu ul{
@@ -67,9 +67,9 @@ a{
 /*div qui contents le contenu de chaque section*/
 #main{
     background-color: black;
-    width:67%;
+    width:60.5%;
     position:relative;
-    left:230px;
+    left:310px;
     border:1px solid black;
 }
 /*color pour les paragraphes*/
@@ -82,7 +82,7 @@ p
 	border:3px solid white;
 	width:252px;
 	position:relative;
-	left:680px;
+	left:685px;
 	bottom:408px;
 }
 /*div qui content le formulaire de contact*/
