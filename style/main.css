@@ -81,10 +81,15 @@ p
 #actualite{
 	border:3px solid white;
 	width:252px;
+    height:397px;
 	position:relative;
-	left:685px;
+	left:670px;
 	bottom:408px;
     overflow: scroll;
+    padding-left:15px;
+}
+h3{
+    color:white;
 }
 /*div qui content le formulaire de contact*/
 #formulaire{
