@@ -300,6 +300,9 @@ float: right;
     background-color: #ffffff;
     color: black;
     margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
 
 
 
@@ -307,5 +310,6 @@ float: right;
 }
 
 caption{
+    color: #ffffff;
 
 }
