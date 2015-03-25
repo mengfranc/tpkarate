@@ -1,3 +1,12 @@
+body{
+    font-family:arial, times new roman, georgia, serif;
+    color: #ffffff;
+}
+
+#head img{
+    width: 60.5%;
+}
+
 /*div qui contents tout*/
 #wrapper{
 	width:100%;
@@ -69,7 +78,7 @@ a{
     background-color: black;
     width:60.5%;
     position:relative;
-    left:310px;
+    margin:0 auto;
     border:1px solid black;
 
 }
@@ -100,53 +109,74 @@ h3{
     color:white;
 }
 /*div qui content le formulaire de contact*/
-#formulaire{
-    width:98%;
-    padding:5px;
-    margin:5px;
-
-}
-/* div qui contents l'addresse*/
-#address{
-    display:inline-block;
-    border:1px solid white;
-    width:96%;
-    padding:5px;
-    left:4px;
-    position:relative;
-    margin:8px;
-
-
-}
-/* pour positione les paragraphes dans le div address*/
-#address p{
-    display:inline-block;
-    margin-left:80px;
-    margin-top:110px;
-}
 /* pour le colour et le grandeur du labels du formulaire*/
-label{
-    color:white;
-    font-weight: bold;
-    width:100px;
+/* On met le float left sur les éléments du formulaire */
+#formulaire label, #formulaire input, #formulaire span, #formulaire textarea, #formulaire select{
+    float: left;
+}
 
+#formulaire label {
+    clear: left;
+    color:white;
+    text-align: right;
+    width: 100px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+input.boutton{
+   clear: left;
+    margin-left: 120px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+textarea{
+    color: blue;
+    font-style: italic;
+}
+p.address_text{
+    font-style: italic;
+    position:relative;
+    left:100px;
+    top:30px
+}
+
+fieldset{
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+fieldset:last-of-type{
+    margin-bottom: 30px;
+}
+
+select{
+    color: black;
+}
+
+textarea{
+    margin-top: 8px;
 }
 /* pour le colour et le grandeur du legend du formulaire*/
 legend{
-    font-size: large;
+    font-size: 130%;
     font-weight: bold;
-    color:white;
+    color: #eaff0b;
 
 }
 /* pour la position et le grandeur de la image dans le div address*/
 #map{
     width:400px;
     height:300px;
-    position: relative;
-    display: inline-block;
     float:right;
-    padding-right:25px;
-    padding-bottom: 25px;
+    padding-right: 0px;
+    border:4px solid darkorange;
+
 }
 /* div qui contents l'address et le facebook*/
 #footer{
@@ -160,11 +190,6 @@ h2{
     text-align: center;
 
 
-}
-h4{
-    color: white;
-    text-align: left;
-    padding-left:45px;
 }
 
 table > thead > tr > th
