@@ -75,17 +75,21 @@ p
 }
 
 #formulaire{
-    width:100%;
-    padding:2px;
+    width:98%;
+    padding:5px;
+    margin:5px;
 
 }
+
 #address{
     display:inline-block;
     border:1px solid white;
-    width:100%;
-    padding:2px;
+    width:96%;
+    padding:5px;
     left:4px;
     position:relative;
+    margin:8px;
+
 
 }
 #address p{
