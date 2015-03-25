@@ -1,12 +1,16 @@
 /*div qui contents tout*/
 #wrapper{
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	background-color:lightgrey;
 }
 /*div qui contents le banniere*/
 #head{
 	text-align:center;
+}
+
+#head img{
+    width: 60.5%;
 }
 /*div qui contents le menu*/
 #menu{
@@ -169,10 +173,11 @@ legend{
 /* div qui contents l'address et le facebook*/
 #footer{
     background-color: black;
-    width:67%;
+    width:60.5%;
     position:relative;
-    left:230px;
+    margin: 0 auto;
     text-align: center;
+    
 
 }
 h2{
