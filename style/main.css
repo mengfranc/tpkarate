@@ -71,6 +71,13 @@ a{
     position:relative;
     left:310px;
     border:1px solid black;
+
+}
+#gallerycss2{
+    position:relative;
+    width:70%;
+    display:inline-block;
+
 }
 /*color pour les paragraphes*/
 p
@@ -80,11 +87,17 @@ p
 /*div a cote la gallery pour visualiser des activites prochaines*/
 #actualite{
 	border:3px solid white;
-	width:252px;
-	position:relative;
-	left:685px;
-	bottom:408px;
+	/*width:252px;*/
+    width:25%;
+    height:397px;
+    float:right;
     overflow: scroll;
+    padding-left:15px;
+    margin-top:5px;
+    margin-right:2px;
+}
+h3{
+    color:white;
 }
 /*div qui content le formulaire de contact*/
 #formulaire{
