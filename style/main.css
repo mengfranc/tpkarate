@@ -1,21 +1,25 @@
+/*div qui contents tout*/
 #wrapper{
 	width:100%;
 	margin:0;
 	background-color:lightgrey;
 }
+/*div qui contents le banniere*/
 #head{
 	text-align:center;
 }
-
+/*div qui contents le menu*/
 #menu{
 	 margin: 0 auto;
 	 position:relative;
      background-color: black;
      width: 67%;
 }
+/*Positione le menu*/
 #menu ul{
     position:relative;
    }
+/*Menu vertical et decorations pour le bottoms*/
 #menu li{
 	list-style: none;
 	display:inline-block;
@@ -25,9 +29,11 @@
 	text-align: center;
 	box-shadow: 2px 2px 5px #999;
 }
+/*fait plus grand la lettre sur le link*/
 a{
     font-weight:bold;
 }
+/*colours et conditions quand le link est actif, on est sur la section selectione*/
 .actif:link {
     color:black;
     text-decoration: none;
@@ -35,18 +41,22 @@ a{
     width: 95px;
     background-color: white;
 }
+/*colours et conditions quand le link est inactif, on est sur autre section*/
 .non_actif:link{
 	color:white;
 	text-decoration: none;
     display:inline-block;
     width: 95px;
 }
+/*colours et conditions quand le link a etait visite, on est sur la section selectione*/
 .actif:visited{
     color:black;
 }
+/*colours et conditions quand le link a etait visite, on est sur autre section*/
 .non_actif:visited{
 	color:white;
 }
+/*le effect quand on approxime la sourire*/
 .non_actif:hover{
 	color:black;
     background-color: white;
@@ -54,6 +64,7 @@ a{
 .actif:active, .non_actif:active{
 	color:red;
 }
+/*div qui contents le contenu de chaque section*/
 #main{
     background-color: black;
     width:67%;
@@ -61,11 +72,12 @@ a{
     left:230px;
     border:1px solid black;
 }
-
+/*color pour les paragraphes*/
 p
 {
  color: #ffffff;
 }
+/*div a cote la gallery pour visualiser des activites prochaines*/
 #actualite{
 	border:3px solid white;
 	width:252px;
@@ -73,14 +85,14 @@ p
 	left:680px;
 	bottom:408px;
 }
-
+/*div qui content le formulaire de contact*/
 #formulaire{
     width:98%;
     padding:5px;
     margin:5px;
 
 }
-
+/* div qui contents l'addresse*/
 #address{
     display:inline-block;
     border:1px solid white;
@@ -92,34 +104,37 @@ p
 
 
 }
+/* pour positione les paragraphes dans le div address*/
 #address p{
     display:inline-block;
     margin-left:80px;
     margin-top:110px;
 }
-#address img{
-    float:right;
-    padding-right:25px;
-    padding-bottom: 25px;
-}
+/* pour le colour et le grandeur du labels du formulaire*/
 label{
     color:white;
     font-weight: bold;
     width:100px;
 
 }
+/* pour le colour et le grandeur du legend du formulaire*/
 legend{
     font-size: large;
     font-weight: bold;
     color:white;
 
 }
+/* pour la position et le grandeur de la image dans le div address*/
 #map{
     width:400px;
     height:300px;
     position: relative;
     display: inline-block;
+    float:right;
+    padding-right:25px;
+    padding-bottom: 25px;
 }
+/* div qui contents l'address et le facebook*/
 #footer{
     background-color: black;
     width:67%;
@@ -187,6 +202,7 @@ td,th{
 
 }
 
+/* div qui contents la photo et l'histoire du profe*/
 #sensei{
     margin:20px;
     border:1px solid white;
@@ -195,6 +211,7 @@ td,th{
     padding-bottom: 5px;
 
 }
+/*class pour les textes*/
 .marge{
     padding-right: 25px;
     padding-left: 25px;
