@@ -169,10 +169,17 @@ td,th{
     width: 400px;
     height: 300px;
 }
+#text{
+    margin:20px;
+    border:1px solid white;
+
+}
 
 .marge{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: left;
+    text:justify;
 }
 
 .combat{
