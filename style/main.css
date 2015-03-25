@@ -106,28 +106,36 @@ h3{
 /*div qui content le formulaire de contact*/
 /* pour le colour et le grandeur du labels du formulaire*/
 /* On met le float left sur les éléments du formulaire */
-#formulaire label, #formulaire input, #formulaire span, #formulaire textarea, #formulaire select{
+#float label, #formulaire span,#float select, #float input, #formulaire textarea, #sex, #commente, #boutton {
     float: left;
 }
 
-#formulaire label {
+#float label, #sex, #commente, #boutton {
     clear: left;
     color:white;
     text-align: right;
-    width: 100px;
+    width: 110px;
     font-weight: bold;
-    margin-top:10px;
     margin-right: 10px;
 }
 
-input.boutton{
-   clear: left;
-    margin-left: 120px;
-    background-color: lightgray;
-    color: blue;
-    font-weight: bold;
-    font-size: 95%;
+#sex, #formulaire label, #formulaire input, #formulaire select, #formulaire textarea{
+    margin-top: 10px;
 }
+
+#formulaire span{
+    margin-top: 5px;
+
+}
+
+#boutton{
+    clear: left;
+    margin-left: 120px;
+    color: blue;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 95%;
+    }
 
 textarea{
     color: blue;
