@@ -23,28 +23,35 @@
 		<div id="main">
             <div id="formulaire">
             <form action="">
-                <fieldset>
+
+                   <fieldset>
                     <legend>Contactez nous:</legend>
-                    <div><label  for="prenom">Prénom: </label>
-                        <input  type="text" id="prenom"/></div>
-                    <div><label  for="nom">Nom: </label>
-                        <input  type="text" id="nom"/></div>
-                    <div><label  for="email">E-mail: </label>
-                    <input  type="text" id="email"/></div>
+               <div id="float">
+                    <div>
+                        <label  for="prenom">Prénom: </label>
+                        <input  type="text" id="prenom"/>
+                        <label  for="nom">Nom: </label>
+                        <input  type="text" id="nom"/>
+                        <label  for="email">E-mail: </label>
+                        <input  type="text" id="email"/>
+                    </div>
+
 
                     <div>
                         <label  for="age">Âge:</label>
-                      <select id="age" name="age" style="width:170px">
+                        <select id="age" name="age" style="width:149px">
                         <option>Moin de 16 ans</option>
                         <option>Entre 17 et 20 ans</option>
                         <option>Entre 21 et 25 ans</option>
                         <option>Entre 25 et 40 ans</option>
                         <option>Plus de 40 ans</option>
-                      </select>
+                        </select>
                     </div>
 
+               </div>
+
                     <div >
-                        <label >Sexe:</label>
+                        <label id="sex" >Sexe:</label>
                         <span  >
                             <input  type="radio" name="sex" id="m" value="masculine"/>
                             <label  for="m">M</label>
@@ -53,9 +60,9 @@
                         </span>
                     </div>
 
-                    <label  for="commentaire">Commentaire:</label>
+                    <label id="commente" for="commentaire">Commentaire:</label>
                     <textarea id="commentaire" rows="6" cols="30">Écrivez ici.</textarea><br/>
-                    <input class="boutton" type="submit" value="Envoyer"/>
+                    <input id="boutton" type="submit" value="Envoyer"/>
                 </fieldset>
             </form>
             </div>
