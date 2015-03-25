@@ -25,39 +25,49 @@
             <form action="">
                 <fieldset>
                     <legend>Contactez nous:</legend>
-                    <div><label for="prenom">Prenom: </label>
-                        <input type="text" id="prenom"/></div>
-                    <div><label for="nom">Nom: </label>
-                        <input type="text" id="nom"/></div>
-                    <div><label for="email">E-mail: </label>
-                    <input type="text" id="email"/></div>
-                    <label for="age">Age:</label>
-                    <select id="age" name="age">
+                    <div><label  for="prenom">Prénom: </label>
+                        <input  type="text" id="prenom"/></div>
+                    <div><label  for="nom">Nom: </label>
+                        <input  type="text" id="nom"/></div>
+                    <div><label  for="email">E-mail: </label>
+                    <input  type="text" id="email"/></div>
+
+                    <div>
+                        <label  for="age">Âge:</label>
+                      <select id="age" name="age" style="width:170px">
                         <option>Moin de 16 ans</option>
                         <option>Entre 17 et 20 ans</option>
                         <option>Entre 21 et 25 ans</option>
                         <option>Entre 25 et 40 ans</option>
                         <option>Plus de 40 ans</option>
-                    </select><br/>
-                    <label for="sex">Sex:</label>
-                    <label for="sex">M</label>
-                    <input type="radio" name="sex" id="sex" value="masculine"/>
-                    <label for="sex">F</label>
-                    <input type="radio" name="sex" value="femenine"/><br/>
-                    <label for="sujet">Sujet:</label>
-                    <input type="text" name="sujet" id="sujet"/><br/>
-                    <textarea rows="4" cols="50">Commentaire...</textarea><br/>
-                    <input type="submit" value="Envoyer"/>
+                      </select>
+                    </div>
+
+                    <div >
+                        <label >Sexe:</label>
+                        <span  >
+                            <input  type="radio" name="sex" id="m" value="masculine"/>
+                            <label  for="m">M</label>
+                            <input  type="radio"  name="sex" id="f" value="femenine"/>
+                            <label  for="f">F</label>
+                        </span>
+                    </div>
+
+                    <label  for="commentaire">Commentaire:</label>
+                    <textarea id="commentaire" rows="6" cols="30">Écrivez ici.</textarea><br/>
+                    <input class="boutton" type="submit" value="Envoyer"/>
                 </fieldset>
             </form>
             </div>
             <div id="address">
-                <h4>Appelez-nous ou venez nous rencontrer!</h4>
-                <p>558, boulevard Ste-Foy<br/>
+                <fieldset>
+                <legend class="address_text" >Appelez-nous ou venez nous rencontrer !</legend>
+                <a href="https://www.google.ca/maps/place/558+Boulevard+Sainte-Foy,+Longueuil,+QC+J4J+1Y6/@45.5253953,-73.4929386,17z/data=!3m1!4b1!4m2!3m1!1s0x4cc91b499114a61f:0x85b5370e5d98f586"> <img alt="adress" id="map" src="images/map.jpg"/></a>
+                <p class="address_text">558, boulevard Ste-Foy<br/>
                 Longueuil, Qc, J4J 1Y6<br/>
                 Telephone: 450-442-1417</p>
-                <a href="https://www.google.ca/maps/place/558+Boulevard+Sainte-Foy,+Longueuil,+QC+J4J+1Y6/@45.5253953,-73.4929386,17z/data=!3m1!4b1!4m2!3m1!1s0x4cc91b499114a61f:0x85b5370e5d98f586"> <img id="map" src="images/map.jpg"/></a>
-            </div>
+                </fieldset>
+                </div>
         </div>
 	</div>
     <div id="footer">
