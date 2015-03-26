@@ -95,7 +95,7 @@ p
     width:25%;
     height:397px;
     float:right;
-    overflow: scroll;
+    overflow-x: hidden;
     padding-left:15px;
     margin-top:5px;
     margin-right:2px;
@@ -254,7 +254,7 @@ td,th{
     padding-left: 25px;
     text-align: left;
     text:justify;
-    overflow: scroll;
+    overflow-x:hidden;
     height: 500px;
 }
 
