@@ -95,7 +95,7 @@ p
     width:25%;
     height:397px;
     float:right;
-    overflow-x: hidden;
+    overflow: scroll;
     padding-left:15px;
     margin-top:5px;
     margin-right:2px;
@@ -254,7 +254,7 @@ td,th{
     padding-left: 25px;
     text-align: left;
     text:justify;
-    overflow-x:hidden;
+    overflow: scroll;
     height: 500px;
 }
 
@@ -290,7 +290,6 @@ float: right;
     margin: 0 auto;
 
 
-
 }
 #ta{
     border-spacing:0;
@@ -308,12 +307,9 @@ float: right;
 
 
 
-
-
 }
 
 caption{
     color: #ffffff;
-    font-size:large;
 
 }
