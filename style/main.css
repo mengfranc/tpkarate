@@ -248,23 +248,26 @@ h4{
     text-align: left;
     padding-left: 25px;
 }
-#cours{
-    margin:20px;
+#cours {
     border:1px solid white;
-    width:45%;
+    width:390px;
     display:inline-block;
-
+    margin-left: 25px;
+    position: relative;
+    bottom:39px
 }
 
-/* div qui contents la photo et l'histoire du profe*/
-#sensei{
-    margin:20px;
+#sensei {
     border:1px solid white;
-    width:45%;
+    width:390px;
     display:inline-block;
-    padding-bottom: 5px;
-
+    margin-left: 15px;
 }
+
+#sensei {
+    margin-top:10px;
+}
+
 #his{
     padding-right: 25px;
     padding-left: 25px;
