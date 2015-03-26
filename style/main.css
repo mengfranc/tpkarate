@@ -356,8 +356,9 @@ caption {
     width: 5%;
     float: right;
     position: relative;
-    bottom: 60px;
-    right:10px
+    bottom: 70px;
+    right:10px;
+    margin: 5px;
 }
 
 #footer{
