@@ -1,17 +1,13 @@
-
-
-
-#wrapper{
-    background-color:lightgrey;
-}
-
-
-/*div qui contents tout*/
 body{
     font-family: arial, times new roman, georgia, serif;
     color: #ffffff;
 }
 
+#wrapper{
+    background-color:lightgrey;
+    margin: 0 auto;
+}
+/*div qui contents tout*/
 
 /*head*/
 #head{
@@ -19,7 +15,9 @@ body{
 }
 
 #head img{
+    display: block;
     width: 60.5%;
+    margin: 0 auto;
 }
 /*menu*/
 #menu{
@@ -65,7 +63,7 @@ a{
 }
 /*colours et conditions quand le link a etait visite, on est sur la section selectione*/
 .actif:visited{
-    color:black;
+    color:#ffffff;
 }
 /*colours et conditions quand le link a etait visite, on est sur autre section*/
 .non_actif:visited{
@@ -114,6 +112,9 @@ display:inline-block;
 p
 {
  color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
 }
 /*div a cote la gallery pour visualiser des activites prochaines*/
 #actualite{
@@ -280,7 +281,7 @@ h4{
     padding-left: 25px;
     text-align:justify;
     overflow-x: hidden;
-    height: 500px;
+
 
 }
 
