@@ -354,6 +354,7 @@ td,th{
 caption {
     font-size: 150%;
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
 #footer img{
@@ -373,5 +374,9 @@ caption {
     border-top: 2px solid yellow;
     padding-top: 0px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+#footer p {
     text-align: center;
 }
