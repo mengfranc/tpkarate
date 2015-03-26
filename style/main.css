@@ -1,13 +1,19 @@
+
+
+
+#wrapper{
+    background-color:lightgrey;
+}
+
+
 /*div qui contents tout*/
 body{
     font-family: arial, times new roman, georgia, serif;
     color: #ffffff;
 }
 
-#wrapper{
-	background-color:lightgrey;
-}
-/*div qui contents le banniere*/
+
+/*head*/
 #head{
 	text-align:center;
 }
@@ -15,7 +21,7 @@ body{
 #head img{
     width: 60.5%;
 }
-/*div qui contents le menu*/
+/*menu*/
 #menu{
 	 margin: 0 auto;
      margin-top: -20px ;
@@ -73,6 +79,8 @@ a{
 .actif:active, .non_actif:active{
 	color:red;
 }
+
+/*main*/
 /*div qui contents le contenu de chaque section*/
 #main{
     background-color: black;
