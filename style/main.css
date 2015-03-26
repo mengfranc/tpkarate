@@ -290,6 +290,7 @@ float: right;
     margin: 0 auto;
 
 
+
 }
 #ta{
     border-spacing:0;
@@ -307,9 +308,12 @@ float: right;
 
 
 
+
+
 }
 
 caption{
     color: #ffffff;
+    font-size:large;
 
 }
