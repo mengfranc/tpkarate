@@ -43,11 +43,30 @@ body{
 	box-shadow: 2px 2px 5px #999;
 }
 /*fait plus grand la lettre sur le link*/
-a{
+#menu a{
     font-weight:bold;
 }
+
+/*colours et conditions quand le link a etait visite, on est sur autre section*/
+#menu a:link, #menu a:visited, #menu a:active {
+    color : white;
+    text-decoration: none;
+    display:inline-block;
+    width: 95px;
+}
+
+/*le effect quand on approxime la sourire*/
+#menu a:hover {
+    color:black;
+    background-color: white;
+}
+
+#menu a:active {
+    color:red;
+}
+
 /*colours et conditions quand le link est actif, on est sur la section selectione*/
-.actif:link {
+#menu  a.actif {
     color:black;
     text-decoration: none;
     display:inline-block;
@@ -55,28 +74,12 @@ a{
     background-color: white;
 }
 /*colours et conditions quand le link est inactif, on est sur autre section*/
-.non_actif:link{
-	color:white;
-	text-decoration: none;
-    display:inline-block;
-    width: 95px;
-}
+
 /*colours et conditions quand le link a etait visite, on est sur la section selectione*/
 .actif:visited{
-    color:#ffffff;
+    color:black;
 }
-/*colours et conditions quand le link a etait visite, on est sur autre section*/
-.non_actif:visited{
-	color:white;
-}
-/*le effect quand on approxime la sourire*/
-.non_actif:hover{
-	color:black;
-    background-color: white;
-    }
-.actif:active, .non_actif:active{
-	color:red;
-}
+
 
 /*main*/
 /*div qui contents le contenu de chaque section*/
