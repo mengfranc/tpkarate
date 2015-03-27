@@ -121,15 +121,15 @@ p
 }
 /*div a cote la gallery pour visualiser des activites prochaines*/
 #actualite{
-	border:3px solid white;
+	border:2px solid white;
 	/*width:252px;*/
     width:25%;
     height:397px;
     float:right;
     overflow-x: hidden;
     padding-left:15px;
-    margin-top:5px;
-    margin-right:2px;
+    margin-top:20px;
+    margin-right:10px;
 }
 h3{
     color:white;
